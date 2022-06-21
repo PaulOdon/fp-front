@@ -1,7 +1,7 @@
-This is the facily post back-office app
+This project is the facily post back-office app
 
 ## Configure environement variable
-copy and rename the .env.local.example file to .env.local and add your propre environement variable
+copy and rename the .env.local.example file to .env.local and add your own variable environement 
 ## Start the project
 
 
