@@ -1,0 +1,20 @@
+
+.hoverwarning{
+    border-color: #ffc107;
+    color: #ffc107;
+    &:hover{
+        color: black;
+        background: #ffc107 !important;
+        border-color: #ffc107;
+    }
+}
+
+.hoverdanger{
+    border-color: #dc3545;
+    color: #dc3545;
+    &:hover{
+        color: white;
+        background: #dc3545 !important;
+        border-color: #dc3545;
+    }
+}

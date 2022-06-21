@@ -1,0 +1,52 @@
+// type de couleur status
+.brouillon {
+  background-color: #0d6efd;
+}
+
+.npai {
+  background-color: #20c997;
+  color: black;
+}
+.enattente {
+  background-color: #dc3545;
+}
+.livre {
+  background-color: #198754;
+}
+.laposte {
+  background-color: #fca920;
+  color: black;
+}
+
+//type d'icon status
+.bi-brouillon {
+  &::before {
+    content: "\F130";
+    color: white;
+  }
+}
+
+.bi-npai {
+  &::before {
+    content: "\F335";
+    color: black;
+  }
+}
+.bi-enattente {
+  &::before {
+    content: "\F41F";
+    color: white;
+  }
+}
+.bi-livre {
+  &::before {
+    content: "\F26B";
+    color: white;
+  }
+}
+.bi-laposte {
+  &::before {
+    content: "\F47C";
+    color: black;
+  }
+}
